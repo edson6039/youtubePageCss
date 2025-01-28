@@ -1,0 +1,301 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.spaceEven {
+    justify-content: space-evenly;
+}
+
+.Roboto {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 14px;
+}
+
+.margin {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+/* Menu Superior */
+
+.menu {
+    width: 1440px;
+    height: 56px;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.left {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left img {
+    width: 90px;
+    height: 20px;
+}
+
+.vectorMenu {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vector {
+    width: 18px;
+    height: 0px;
+    border: 2px solid black;
+}
+
+.center {
+    width: 404px;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid #CCCCCC;
+}
+
+.center img {
+    width: 57px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.search-input {
+    width: 348px;
+    height: 40px;
+    padding: 0px;
+    border: 1px solid #CCCCCC;
+}
+
+.right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right .png {
+    width: 24px;
+    height: 24px;
+}
+
+.right .png img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Tela do vídeo */
+
+.watchingVideo {
+    width: 952px;
+    height: 756px;
+    /*background-color: coral;*/
+    display: flex;
+    position: absolute;
+    top: 84px;
+    left: 75px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.videoImagem {
+    width: 952px;
+    height: 537px;
+}
+
+.videoImagem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.visualizacoes {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.descricao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #515151;
+}
+
+.descricao p {
+margin: 0;
+}
+
+.videoActions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channelInfos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 42px;
+}
+
+.channelAvatar {
+    width: 42px;
+    height: 42px;
+}
+
+.channelAvatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.channelInscriptions {
+    width: 106px;
+    height: 32px;
+}
+
+.channelInscriptions p {
+font-size: 14px;
+margin: 0;
+}
+
+.subscribeButton Button {
+    background-color: #CC0000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border: solid #cc0000;
+}
+
+.like {
+    width: 63px;
+    height: 24px;
+}
+
+.deslike {
+    width: 100px;
+    height: 24px;
+}
+
+.share {
+    width: 115px;
+    height: 24px;
+}
+
+.share img {
+    width: 24px;
+    height: 24px;
+}
+
+.download img {
+    width: 24px;
+    height: 24px;
+}
+
+.download {
+    width: 95px;
+    height: 24px;
+}
+
+/* Barra direita */
+
+.sidebar {
+    width: 160px;
+    height: 938px;
+    top: 84px;
+    left: 1052px;
+    position: absolute;
+}
+
+.videoRecommended {
+    width: 160px;
+    height: 90px;
+}
+
+.videoRecommended img {
+    width: 100%;
+    height: 100%;
+}
+
+.sidebarInfo {
+    width: 200px;
+    height: 938px;
+    top: 84px;
+    left: 1228px;
+    position: absolute;
+}
+
+.videoInfo {
+    width: 196px;
+    height: 90px;
+}
+
+.videoInfoTitulo {
+    width: 196px;
+    height: 32px;
+}
+
+.videoInfoDescricao {
+    width: 196px;
+    height: 14px;
+    font-size: 12px;
+}
+
+.videoInfoVisualizacao {
+    width: 196px;
+    height: 28px;
+    font-size: 12px;
+}
